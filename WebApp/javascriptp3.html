@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     var p1=parseInt(prompt("Enter the p1 value is::"))
     var p2=parseInt(prompt("Enter the p2 value is::"))
     document.write("ArithimeticOperators")
@@ -7,3 +7,27 @@
     document.write(p1==p2)
     document.write(p1!=p2)
 </script>
+<body>
+    Your value is::<h4 id="d1"></h4>
+    Your Multiple value is::<p id="d2"></p>
+</body>
+<script>
+    var a = 5;
+    var b=10;
+    c=a+b;
+    c1=a*b;
+    document.getElementById('d1').innerHTML=c;
+    document.getElementById('d2').innerHTML=c1;
+</script> -->
+
+<body>
+    <p></p>
+    <script>
+        var x = parseInt(prompt("Enter the x value is::"));//200
+        var y=parseInt(prompt("Enter the y value is::"))//100
+        document.write("LogicalAND::"+((x>y)&&(y<x)))
+        document.write("LogicalAND::"+((x<y)&&(y<x)))
+        document.write("LogicalOR::"+((x<y)||(y<x)))
+        document.write("LogicalNOT::"+!(x>y))
+    </script>
+</body>
