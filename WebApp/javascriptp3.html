@@ -18,16 +18,18 @@
     c1=a*b;
     document.getElementById('d1').innerHTML=c;
     document.getElementById('d2').innerHTML=c1;
-</script> -->
+</script>
 
 <body>
-    <p></p>
+    Your Output is::<p id="d1"></p>
     <script>
         var x = parseInt(prompt("Enter the x value is::"));//200
         var y=parseInt(prompt("Enter the y value is::"))//100
+        document.getElementById("d1").innerHTML=((x>y)&&(y<x))
         document.write("LogicalAND::"+((x>y)&&(y<x)))
         document.write("LogicalAND::"+((x<y)&&(y<x)))
         document.write("LogicalOR::"+((x<y)||(y<x)))
         document.write("LogicalNOT::"+!(x>y))
+        console.log("Welcome"+(x>y));
     </script>
-</body>
+</body>-->

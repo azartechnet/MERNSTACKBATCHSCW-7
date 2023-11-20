@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        Your Salary is::<p id="d1"></p>
+        <script>
+            age=parseInt(prompt("Enter the age is::"))
+            if(age>60)
+            {
+                salary=parseInt(prompt("Enter the salary is::"))
+                if(salary>=2000)
+                { 
+                        bsn=salary+500
+                        document.getElementById("d1").innerHTML=bsn;
+                } 
+                else
+                {
+                        bsn=salary+1000
+                        document.getElementById("d1").innerHTML=bsn;
+                }
+            }
+            else
+            {
+                document.getElementById("d1").innerHTML="Your age is low"
+            }
+        </script>
+    </body>
+</html>
